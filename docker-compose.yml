@@ -1,0 +1,7 @@
+version: "3.7"
+services:
+  webapp:
+    build: .
+    image: vishalaswani/angularjs-app
+    ports: 
+      - 34200:4200
